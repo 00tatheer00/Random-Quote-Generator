@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 20px;
+  background-color: aqua;
+  margin-left: 20em;
+  backdrop-filter: blur(3px) saturate(200%);
+  /* -webkit-backdrop-filter: blur(6px) saturate(200%); */
+  background-color: rgba(255, 255, 255, 0);
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 0px 16px 2px rgb(56, 56, 56);
+  -moz-box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+section {
+  background-image: url(/images/pexels-dreamypixel-547114.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  /* border: 3px solid red; */
+  width: 100vw;
+  height: 100vh;
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.quote {
+  width: 32em;
+  height: 6.5em;
+  margin-top: 6em;
+  padding: 20px;
+  margin-left: 80px;
+  /* border: 2px solid blue; */
+  text-align: center;
+}
+
+.btn {
+  /* margin-top: 40px; */
+  /* margin-left: 15em; */
+  /* position:fixed;
+  top: 20; */
+  color: aliceblue;
+  border: none;
+  outline: none;
+  width: 15%;
+  transition: none;
+  margin-left: 35em;
+  margin-top: 1em;
+  backdrop-filter: blur(5px) saturate(200%);
+  background-color: rgba(240, 248, 255, 0);
+  box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 0px 16px 2px rgb(56, 56, 56);
+  -moz-box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+.btn:hover {
+  border: none;
+  backdrop-filter: blur(4px) saturate(200%);
+}
+
+.btn:active {
+  border: none;
+  outline: none;
+  scale: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/* @media screen and (min-width:414px) {
+  section {
+    background-image: url(/images/pexels-dreamypixel-547114.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border: 3px solid red;
+    width: 156vw;
+    height: 150vh;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  .container {
+    width: 120vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+  }
+  .btn{
+    margin-left: 230px;
+    width: 200px;
+  }
+} */
